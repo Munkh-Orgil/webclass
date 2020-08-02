@@ -10,9 +10,50 @@
         <section id="overlay">
             <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
             <hr>
-            
+            <form action="thanks.html" method="POST" >
+                <label>Ямар төрлийн мах ашиглах вэ?</label>
+                <input type="text">
+                <br>
+                <label>Хэдэн ширхэг авах вэ?</label>
+                <input type="number" step="2">
+                <hr>
+                
+                <label>Махаа хэр сайн болгох вэ?</label>
+                <br>
+                <span>Бага зэрэг</span>
+                <input type="range" min="0" max="5" step="0.5">
+                <span>Маш сайн</span>
+                <br>
+                <span>Дотор нь юу хийх вэ?</span>
+                <br>
+                <input id="tomato" value="tomato" type="checkbox">
+                <label for="tomato" >Улаан лооль</label>
+                <input id="onion" value="onion" type="checkbox">
+                <label for="onion">Сонгино</label>
+                <input id="lettuce" value="lettuce" type="checkbox">
+                <label for="lettuce">Байцаа</label>
+                <hr>
+                <span>Чийз хийх үү?</span>
+                <br>
+                <input id="yes" value="yes" type="radio">
+                <label for="yes">Тийм</label>
 
-
+                <input id="no" value="no" type="radio">
+                <label for="no">Үгүй</label>
+                <hr>
+                <label for="bun">Ямар төрлийн талх тавих вэ?</label>
+                <br>
+                <select id="bun">
+                    <option value="black">Хар талх</option>
+                    <option value="white">Цагаан талх</option>
+                </select>
+                <hr>
+                <label for="extra">Нэмэлт хүсэлт байна уу?</label>
+                <br>
+                <textarea id="extra" cols="50" rows="10">Сайн байна уу?</textarea>
+                <hr>
+                <input type="submit" value="Оруулах">
+            </form>
         </section>
     </body>
 </html>
