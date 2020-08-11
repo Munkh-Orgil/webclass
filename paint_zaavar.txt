@@ -1,0 +1,6 @@
+.orange гэдэг class selector-ын өнгийг #ff8000 болж өөрчилөх
+h1 selector-ын өнгийг rgba(0,0,0,0.7) болгох
+#banner::before -ыг rgba(255, 128, 0, 0.75) болгох
+.color .swatches h4 selector ийн өнгийг #9b9b9b болгох
+.reds .base .color ын өнгө hsl(350,100,50)
+ бусад алдаануудыг засах

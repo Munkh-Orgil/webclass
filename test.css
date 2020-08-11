@@ -1,0 +1,19 @@
+body {
+    background-color:#f7e7e6;
+}
+.colors {
+    color: white;
+}
+.green {
+    background-color: green;
+    width: 500px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}

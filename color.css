@@ -20,7 +20,7 @@ body {
   .roasting {
     margin: 40px auto;
     padding: 20px 30px 40px 30px;
-    background-color: #FFFFFFFFF;
+    background-color: #FFFFFFFF;
     overflow: auto;
     width: 75%;
     border-radius: 4px;
@@ -51,7 +51,7 @@ body {
   
   /* Roast types */
   .green {
-    background-color: DarkSeaGreen;
+    background-color: #9f8c8f;
   }
   
   .light {
@@ -80,6 +80,8 @@ body {
     position: relative;
     text-align: center;
     top: 20%;
+    color: midnightblue;
+    background-color:Aqua;
   }
   
   h2 {
