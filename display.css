@@ -5,11 +5,13 @@ html, body {
 
 header {
   background-color: #333333;
+  position: absolute;
 }
 
 nav {
   margin: 0;
   padding: 20px 0;
+  
 }
 
 nav li {

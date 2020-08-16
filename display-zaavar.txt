@@ -1,0 +1,9 @@
+1. header element-ийн position-г absolute болгох
+2. Өргөн нь дэлгэцийн 100% эзлэх хэмжээтэй болгох 
+3. nav li гэсэн selector-ыг зэрэгцээ display-тэй болгох
+4. Өргөнг нь 80px болгох
+5. main selector-ын position-г relative болгох
+6. z-index ашиглан header-г харагдуулах
+7. main selector-ын дээд талаас 80px ав
+8. .supporting .col гэсэн class-ыг inline-block (зэрэгцээ) харагдуулах
+9. .supporting .col гэсэн class-ын өндөр, өргөнг 200px болго
