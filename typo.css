@@ -1,5 +1,4 @@
 /* Universal Styles */
-
 html {
   font-size: 16px;
   font-family: "Arial", sans-serif;
@@ -12,12 +11,17 @@ body {
 h1 {
   color: white;
   font-size: 28px;
+  font-family: Georgia;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 2.5;
+  font-family: Georgia;
+  word-spacing: 0.05em;
 }
 
 a {
@@ -26,6 +30,7 @@ a {
 
 p {
   margin: 16px 0;
+  font-family: Helvetica;
 }
 
 strong {
@@ -49,6 +54,7 @@ strong {
   position: fixed;
   top: 0;
   width: 100%;
+  font-weight: 900;
 }
 
 .header li {
@@ -76,10 +82,16 @@ a.home {
 }
 
 .banner p {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border: 1px solid #fff;
   padding: 10px;
   color: #ffffff;
+  border-radius: 10px;
+  width: 40%;
+  margin: 15px auto;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  line-height: 1.4
 }
 
 /* Editorial Sections */
@@ -102,6 +114,7 @@ a.home {
 .font-card .creator {
   font-size: 20px;
   line-height: 1.25;
+  font-style: italic;
 }
 
 .sample {
@@ -120,11 +133,17 @@ a.home {
 }
 
 /* Add styles for the Garamond font here */
-
+.garamond .sample .text {
+  font-family: 'EB Garamond', serif;
+}
 /* Add styles for the Helvetica font here */
-
+.helvetica .sample .text {
+  font-family: 'Helvetica', sans-serif;
+}
 /* Add styles for the Space Mono font here */
-
+.space .sample .text {
+  font-family: 'Space Mono', monospace;
+}
 .bold {
   font-weight: 900;
 }
